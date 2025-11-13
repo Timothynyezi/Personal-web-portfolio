@@ -7,8 +7,9 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
-    <script src="portfolio.js"></script>
+    <link rel="stylesheet" href="./src/css/main.css">
+    <script src="./src/js/portfolio.js"></script>
+    <script src="./src/utils/projects.js"></script>
 </head>
 <body>
     <nav class="bg-white sticky top-0 z-50 header-shadow">
@@ -19,7 +20,7 @@
                 </div>
                 <div>
                    <a href="#" onclick="navigate('about')" id="nav-about" class="nav-link text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-150">About</a>
-                   <a href="#" onclick="navigate('skills')" id="nav-skills" class="nav-link text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-150">Skills>Skills</a>
+                   <a href="#" onclick="navigate('skills')" id="nav-skills" class="nav-link text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-150">Skills</a>
                    <a href="#" onclick="navigate('projects')" id="nav-projects" class="nav-link text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-150">Projects</a> 
                 </div>
             </div>
@@ -38,7 +39,7 @@
                Focused on building robust systems that transform raw data into actionable insights. Currently seeking a challenging entry-level role where I can apply my skills in data pipelines, backend development, and cloud environments. 
             </p>
             <div class="mt-8 space-x-4">
-                <a href="#" onclick="navigate('projects')" class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-full shadow-lg text-indigo-600 bg-white hover:bg-gray-100 transition duration-300 transform hover:scale-105">
+                <a id="view-projects" href="#" onclick="navigate('projects')" class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-full shadow-lg text-indigo-600 bg-white hover:bg-gray-100 transition duration-300 transform hover:scale-105">
                     View Projects
                 </a>
                 <a href="thaminyezi@gmail.com" class="inline-flex items-center justify-center px-6 py-3 border border-white text-base font-medium rounded-full text-white hover:bg-white hover:text-indigo-600 transition duration-300 transform hover:scale-105">
